@@ -9,7 +9,11 @@
 
 * Finish importing [GitHub for CiviCRM](https://wiki.civicrm.org/confluence/display/CRMDOC43/GitHub+for+CiviCRM) to `develop.md` and `develop-deprecated.md`.
 
-## Extension questions
+## Core questions / to document
+
+* How to implement schema changes. (Do not submit schema changes in .sql, do them via PHP. See [this thread](https://github.com/civicrm/civicrm-core/pull/8605).)
+
+## Extension questions / to document
 
 * How do I include Composer libraries in my CiviCRM extension?
 * Should I add the `vendor/` directory to Git?
